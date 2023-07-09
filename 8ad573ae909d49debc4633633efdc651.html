@@ -1,0 +1,2622 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>92b39b8ccdb746b3b80aacfc0b659866</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { color: #008000; } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { color: #008000; font-weight: bold; } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<div class="cell code" data-execution_count="3">
+<div class="sourceCode" id="cb1"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Load packages</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np <span class="co"># linear algebra</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd </span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="co">#importing necessary libraries before we proceed</span></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> seaborn <span class="im">as</span> sb</span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a><span class="op">%</span>matplotlib inline</span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a><span class="co"># read csv file </span></span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>data <span class="op">=</span> pd.read_csv(<span class="st">&quot;mock_kaggle.csv&quot;</span>)</span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a>data</span></code></pre></div>
+<div class="output execute_result" data-execution_count="3">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>data</th>
+      <th>venda</th>
+      <th>estoque</th>
+      <th>preco</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>2014-01-01</td>
+      <td>0</td>
+      <td>4972</td>
+      <td>1.29</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>2014-01-02</td>
+      <td>70</td>
+      <td>4902</td>
+      <td>1.29</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>2014-01-03</td>
+      <td>59</td>
+      <td>4843</td>
+      <td>1.29</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>2014-01-04</td>
+      <td>93</td>
+      <td>4750</td>
+      <td>1.29</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>2014-01-05</td>
+      <td>96</td>
+      <td>4654</td>
+      <td>1.29</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>932</th>
+      <td>2016-07-27</td>
+      <td>98</td>
+      <td>3179</td>
+      <td>2.39</td>
+    </tr>
+    <tr>
+      <th>933</th>
+      <td>2016-07-28</td>
+      <td>108</td>
+      <td>3071</td>
+      <td>2.39</td>
+    </tr>
+    <tr>
+      <th>934</th>
+      <td>2016-07-29</td>
+      <td>128</td>
+      <td>4095</td>
+      <td>2.39</td>
+    </tr>
+    <tr>
+      <th>935</th>
+      <td>2016-07-30</td>
+      <td>270</td>
+      <td>3825</td>
+      <td>2.39</td>
+    </tr>
+    <tr>
+      <th>936</th>
+      <td>2016-07-31</td>
+      <td>183</td>
+      <td>3642</td>
+      <td>2.39</td>
+    </tr>
+  </tbody>
+</table>
+<p>937 rows × 4 columns</p>
+</div>
+</div>
+</div>
+<div class="cell code" data-execution_count="4">
+<div class="sourceCode" id="cb2"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co">#check first few observations </span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>data.head()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="4">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>data</th>
+      <th>venda</th>
+      <th>estoque</th>
+      <th>preco</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>2014-01-01</td>
+      <td>0</td>
+      <td>4972</td>
+      <td>1.29</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>2014-01-02</td>
+      <td>70</td>
+      <td>4902</td>
+      <td>1.29</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>2014-01-03</td>
+      <td>59</td>
+      <td>4843</td>
+      <td>1.29</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>2014-01-04</td>
+      <td>93</td>
+      <td>4750</td>
+      <td>1.29</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>2014-01-05</td>
+      <td>96</td>
+      <td>4654</td>
+      <td>1.29</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="cell code" data-execution_count="5">
+<div class="sourceCode" id="cb3"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co">#check last few observations</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>data.tail()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="5">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>data</th>
+      <th>venda</th>
+      <th>estoque</th>
+      <th>preco</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>932</th>
+      <td>2016-07-27</td>
+      <td>98</td>
+      <td>3179</td>
+      <td>2.39</td>
+    </tr>
+    <tr>
+      <th>933</th>
+      <td>2016-07-28</td>
+      <td>108</td>
+      <td>3071</td>
+      <td>2.39</td>
+    </tr>
+    <tr>
+      <th>934</th>
+      <td>2016-07-29</td>
+      <td>128</td>
+      <td>4095</td>
+      <td>2.39</td>
+    </tr>
+    <tr>
+      <th>935</th>
+      <td>2016-07-30</td>
+      <td>270</td>
+      <td>3825</td>
+      <td>2.39</td>
+    </tr>
+    <tr>
+      <th>936</th>
+      <td>2016-07-31</td>
+      <td>183</td>
+      <td>3642</td>
+      <td>2.39</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="cell code" data-execution_count="6">
+<div class="sourceCode" id="cb4"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co">#to understand the data types, null values if any</span></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>data.info()</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>&lt;class &#39;pandas.core.frame.DataFrame&#39;&gt;
+RangeIndex: 937 entries, 0 to 936
+Data columns (total 4 columns):
+ #   Column   Non-Null Count  Dtype  
+---  ------   --------------  -----  
+ 0   data     937 non-null    object 
+ 1   venda    937 non-null    int64  
+ 2   estoque  937 non-null    int64  
+ 3   preco    937 non-null    float64
+dtypes: float64(1), int64(2), object(1)
+memory usage: 29.4+ KB
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="8">
+<div class="sourceCode" id="cb6"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="co">#1. Dataset has 4 variables that are time dependent with 937 observations</span></span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a><span class="co">#2. Dataset has venda(sales), estoque(stock) and preco(price) details (in portugese)</span></span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a><span class="co">#3. Dataset has sales as target variable</span></span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a><span class="co">#4. Date is in string format</span></span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="9">
+<div class="sourceCode" id="cb7"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="co">#rename columns from Portugese to English</span></span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>data <span class="op">=</span> data.rename(columns <span class="op">=</span> {<span class="st">&#39;data&#39;</span>:<span class="st">&#39;Date&#39;</span>, </span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a>                              <span class="st">&#39;venda&#39;</span>: <span class="st">&#39;Sales&#39;</span>, </span>
+<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a>                              <span class="st">&#39;estoque&#39;</span>: <span class="st">&#39;Stock&#39;</span>, </span>
+<span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a>                              <span class="st">&#39;preco&#39;</span>: <span class="st">&#39;Price&#39;</span>}</span>
+<span id="cb7-7"><a href="#cb7-7" aria-hidden="true" tabindex="-1"></a>                              )</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="10">
+<div class="sourceCode" id="cb8"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>data.head()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="10">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Date</th>
+      <th>Sales</th>
+      <th>Stock</th>
+      <th>Price</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>2014-01-01</td>
+      <td>0</td>
+      <td>4972</td>
+      <td>1.29</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>2014-01-02</td>
+      <td>70</td>
+      <td>4902</td>
+      <td>1.29</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>2014-01-03</td>
+      <td>59</td>
+      <td>4843</td>
+      <td>1.29</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>2014-01-04</td>
+      <td>93</td>
+      <td>4750</td>
+      <td>1.29</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>2014-01-05</td>
+      <td>96</td>
+      <td>4654</td>
+      <td>1.29</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="cell code" data-execution_count="11">
+<div class="sourceCode" id="cb9"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="co">#to check missing values</span></span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a>data.isnull().<span class="bu">sum</span>()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="11">
+<pre><code>Date     0
+Sales    0
+Stock    0
+Price    0
+dtype: int64</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="12">
+<div class="sourceCode" id="cb11"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="co">#to convert string format to date format</span></span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a>data[<span class="st">&#39;Date&#39;</span>] <span class="op">=</span> pd.to_datetime(data[<span class="st">&#39;Date&#39;</span>])</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="13">
+<div class="sourceCode" id="cb12"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="co">#adding columns/features</span></span>
+<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a>data[<span class="st">&#39;Day&#39;</span>] <span class="op">=</span> data[<span class="st">&#39;Date&#39;</span>].dt.day</span>
+<span id="cb12-4"><a href="#cb12-4" aria-hidden="true" tabindex="-1"></a>data[<span class="st">&#39;Month&#39;</span>] <span class="op">=</span> data[<span class="st">&#39;Date&#39;</span>].dt.month</span>
+<span id="cb12-5"><a href="#cb12-5" aria-hidden="true" tabindex="-1"></a>data[<span class="st">&#39;Year&#39;</span>] <span class="op">=</span> data[<span class="st">&#39;Date&#39;</span>].dt.year</span>
+<span id="cb12-6"><a href="#cb12-6" aria-hidden="true" tabindex="-1"></a>data[<span class="st">&#39;Revenue&#39;</span>] <span class="op">=</span> data[<span class="st">&#39;Sales&#39;</span>] <span class="op">*</span> data[<span class="st">&#39;Price&#39;</span>] <span class="co"># Adding revenue aswell</span></span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="14">
+<div class="sourceCode" id="cb13"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a>data.info()</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>&lt;class &#39;pandas.core.frame.DataFrame&#39;&gt;
+RangeIndex: 937 entries, 0 to 936
+Data columns (total 8 columns):
+ #   Column   Non-Null Count  Dtype         
+---  ------   --------------  -----         
+ 0   Date     937 non-null    datetime64[ns]
+ 1   Sales    937 non-null    int64         
+ 2   Stock    937 non-null    int64         
+ 3   Price    937 non-null    float64       
+ 4   Day      937 non-null    int32         
+ 5   Month    937 non-null    int32         
+ 6   Year     937 non-null    int32         
+ 7   Revenue  937 non-null    float64       
+dtypes: datetime64[ns](1), float64(2), int32(3), int64(2)
+memory usage: 47.7 KB
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="15">
+<div class="sourceCode" id="cb15"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="co">#set date as index</span></span>
+<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-3"><a href="#cb15-3" aria-hidden="true" tabindex="-1"></a>data.set_index(<span class="st">&#39;Date&#39;</span>, inplace<span class="op">=</span><span class="va">True</span>)</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="17">
+<div class="sourceCode" id="cb16"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a><span class="co">#visualisation of our target variable </span></span>
+<span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-3"><a href="#cb16-3" aria-hidden="true" tabindex="-1"></a>data[<span class="st">&#39;Sales&#39;</span>].plot(figsize <span class="op">=</span> (<span class="dv">15</span>,<span class="dv">5</span>), legend <span class="op">=</span> <span class="va">True</span>)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="17">
+<pre><code>&lt;Axes: xlabel=&#39;Date&#39;&gt;</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_8ad573ae909d49debc4633633efdc651/5508084e3ccc2f096b139d277ccc81b283c5aca8.png" /></p>
+</div>
+</div>
+<div class="cell code" data-execution_count="18">
+<div class="sourceCode" id="cb18"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a><span class="co">#visualisation of our other variables </span></span>
+<span id="cb18-2"><a href="#cb18-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-3"><a href="#cb18-3" aria-hidden="true" tabindex="-1"></a>data[<span class="st">&#39;Stock&#39;</span>].plot(figsize <span class="op">=</span> (<span class="dv">15</span>,<span class="dv">5</span>), legend <span class="op">=</span> <span class="va">True</span>)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="18">
+<pre><code>&lt;Axes: xlabel=&#39;Date&#39;&gt;</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_8ad573ae909d49debc4633633efdc651/15058254e33485c15a73166718406d5dca2585ca.png" /></p>
+</div>
+</div>
+<div class="cell code" data-execution_count="19">
+<div class="sourceCode" id="cb20"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a>data[<span class="st">&#39;Price&#39;</span>].plot(figsize <span class="op">=</span> (<span class="dv">15</span>,<span class="dv">5</span>), legend <span class="op">=</span> <span class="va">True</span>)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="19">
+<pre><code>&lt;Axes: xlabel=&#39;Date&#39;&gt;</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_8ad573ae909d49debc4633633efdc651/b09b5cfab7b1fb231773c89d8a20dfab4a6b4eb6.png" /></p>
+</div>
+</div>
+<div class="cell code" data-execution_count="20">
+<div class="sourceCode" id="cb22"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a>data[<span class="st">&#39;Revenue&#39;</span>].plot(figsize <span class="op">=</span> (<span class="dv">15</span>,<span class="dv">5</span>), legend <span class="op">=</span> <span class="va">True</span>)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="20">
+<pre><code>&lt;Axes: xlabel=&#39;Date&#39;&gt;</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_8ad573ae909d49debc4633633efdc651/184f565da7a7ed3cccca561fba4a3084565a362b.png" /></p>
+</div>
+</div>
+<section
+id="from-the-above-plots-we-can-say-that-there-is-no-trend-but-there-is-seasonality"
+class="cell markdown">
+<h3>from the above plots we can say that there is no trend but there is
+seasonality</h3>
+</section>
+<div class="cell code" data-execution_count="21">
+<div class="sourceCode" id="cb24"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a><span class="co">#plot acf and pacf plots</span></span>
+<span id="cb24-2"><a href="#cb24-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb24-3"><a href="#cb24-3" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> statsmodels.graphics.tsaplots <span class="im">import</span> plot_acf, plot_pacf</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="22">
+<div class="sourceCode" id="cb25"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a>plot_acf(data[<span class="st">&#39;Sales&#39;</span>], lags <span class="op">=</span> <span class="dv">30</span>, title<span class="op">=</span><span class="st">&#39;Autocorrelation for Sales&#39;</span>, zero<span class="op">=</span><span class="va">False</span>, auto_ylims<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb25-2"><a href="#cb25-2" aria-hidden="true" tabindex="-1"></a>plt.show()</span>
+<span id="cb25-3"><a href="#cb25-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb25-4"><a href="#cb25-4" aria-hidden="true" tabindex="-1"></a><span class="co">#ACF plot shows significant 10 lags </span></span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_8ad573ae909d49debc4633633efdc651/91e6958a1628c7a809b144fa3181337e1e1bc415.png" /></p>
+</div>
+</div>
+<div class="cell markdown">
+<p>ACF (Autocorrelation Function) and PACF (Partial Autocorrelation
+Function) are statistical tools commonly used in time series analysis
+and forecasting. They help identify the underlying patterns and
+correlations in the data, specifically the dependence of a variable on
+its past values.</p>
+<ol>
+<li>Autocorrelation Function (ACF): The ACF measures the correlation
+between a time series and its lagged values. It helps determine the
+strength and nature of the relationship between a data point and its
+historical values at different lags. The ACF is a plot of correlation
+coefficients against the lag. A few key points about ACF are:</li>
+</ol>
+<ul>
+<li>A positive autocorrelation at a specific lag indicates a positive
+relationship between the current observation and past observations at
+that lag.</li>
+<li>A negative autocorrelation at a specific lag indicates a negative
+relationship between the current observation and past observations at
+that lag.</li>
+<li>The ACF plot is often used to identify the order of an
+autoregressive (AR) model, as it indicates the number of significant
+lags beyond which the autocorrelations become statistically
+insignificant.</li>
+</ul>
+<ol>
+<li>Partial Autocorrelation Function (PACF): The PACF measures the
+correlation between a time series and its lagged values while removing
+the effects of intermediate lags. It helps identify the direct
+relationship between a data point and its past values, excluding the
+influence of other lags. The PACF is a plot of partial correlation
+coefficients against the lag. Some key points about PACF are:</li>
+</ol>
+<ul>
+<li>The PACF at lag k represents the correlation between the current
+observation and its past observations at lag k, after removing the
+effects of all intermediate lags.</li>
+<li>The PACF is particularly useful in determining the order of a moving
+average (MA) model, as it shows the number of significant lags beyond
+which the partial autocorrelations become statistically
+insignificant.</li>
+</ul>
+<p>By examining the ACF and PACF plots, data analysts can identify the
+appropriate orders of AR and MA terms in time series forecasting models,
+such as the ARIMA (AutoRegressive Integrated Moving Average) model.
+These plots provide insights into the overall dependence structure of
+the time series data and help guide the selection of model parameters to
+achieve accurate and reliable forecasts.</p>
+</div>
+<div class="cell code" data-execution_count="24">
+<div class="sourceCode" id="cb26"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a>plot_pacf(data[<span class="st">&#39;Sales&#39;</span>], lags <span class="op">=</span> <span class="dv">30</span>, title<span class="op">=</span><span class="st">&#39;Partial Autocorrelation for Sales&#39;</span>, zero<span class="op">=</span><span class="va">False</span>, auto_ylims<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb26-2"><a href="#cb26-2" aria-hidden="true" tabindex="-1"></a>plt.show()</span>
+<span id="cb26-3"><a href="#cb26-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb26-4"><a href="#cb26-4" aria-hidden="true" tabindex="-1"></a><span class="co">#PACF plot shows significant 1 lag</span></span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_8ad573ae909d49debc4633633efdc651/0db8d9218d5991d4ee92f6c93883c72e8e36cf7e.png" /></p>
+</div>
+</div>
+<section
+id="since-the-data-has-no-significant-trend-but-there-is-seasonality-we-can-opt-for-models-like-holt-winters-exponential-smoothingseasonality"
+class="cell markdown">
+<h3>Since the data has no significant trend but there is seasonality we
+can opt for models like Holt Winters Exponential
+Smoothing(seasonality).</h3>
+</section>
+<div class="cell code" data-execution_count="25">
+<div class="sourceCode" id="cb27"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb27-1"><a href="#cb27-1" aria-hidden="true" tabindex="-1"></a><span class="co">#to check stationarity in the data</span></span>
+<span id="cb27-2"><a href="#cb27-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-3"><a href="#cb27-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> statsmodels.tsa.stattools <span class="im">as</span> sts</span></code></pre></div>
+</div>
+<div class="cell markdown">
+<p>ADF STAT: The more negative the ADF statistic, the stronger the
+evidence for rejecting the null hypothesis of non-stationarity.</p>
+<p>If the ADF statistic is significantly less than critical values at a
+chosen significance level (e.g., 5%), it suggests that the data is
+stationary.</p>
+<p>P-VALUE: It represents the probability of obtaining the observed ADF
+statistic if the null hypothesis of non-stationarity is true. A lower
+p-value</p>
+<p>indicates stronger evidence against the null hypothesis. Typically,
+if the p-value is less than a chosen significance level (e.g., 0.05),
+the null</p>
+<p>hypothesis of non-stationarity is rejected in favor of
+stationarity.</p>
+<p>critical value: If the ADF statistic is more negative (i.e., farther
+from zero) than the critical values, it provides evidence for rejecting
+the null hypothesis.</p>
+<h4 id="sample-results">Sample results</h4>
+<p>ADF Statistic: -2.584</p>
+<p>p-value: 0.096</p>
+<p>Critical values (1%): -3.431</p>
+<p>Critical values (5%): -2.862</p>
+<p>Critical values (10%): -2.567</p>
+<p>Interpretation:</p>
+<p>The ADF statistic is -2.584, which is more negative than the critical
+values at all significance levels (1%, 5%, and 10%). This suggests
+evidence for stationarity.</p>
+<p>Additionally, the p-value is 0.096, which is greater than the
+significance level of 0.05. While it does not provide strong evidence
+against non-stationarity,</p>
+<p>when combined with the ADF statistic, it supports the conclusion of
+stationarity. Therefore, based on these results, we can consider the
+data to be stationary.</p>
+</div>
+<div class="cell code" data-execution_count="26">
+<div class="sourceCode" id="cb28"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb28-1"><a href="#cb28-1" aria-hidden="true" tabindex="-1"></a>sts.adfuller(data[<span class="st">&#39;Sales&#39;</span>])</span>
+<span id="cb28-2"><a href="#cb28-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb28-3"><a href="#cb28-3" aria-hidden="true" tabindex="-1"></a><span class="co">#sales is stationary (p-value&lt;0.05). but it has some seasonality</span></span></code></pre></div>
+<div class="output execute_result" data-execution_count="26">
+<pre><code>(-5.326902281189405,
+ 4.815089201365774e-06,
+ 14,
+ 922,
+ {&#39;1%&#39;: -3.437462363899248,
+  &#39;5%&#39;: -2.8646798473884134,
+  &#39;10%&#39;: -2.568441851017076},
+ 10080.058794702525)</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="27">
+<div class="sourceCode" id="cb30"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb30-1"><a href="#cb30-1" aria-hidden="true" tabindex="-1"></a>sts.adfuller(data[<span class="st">&#39;Stock&#39;</span>])</span>
+<span id="cb30-2"><a href="#cb30-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb30-3"><a href="#cb30-3" aria-hidden="true" tabindex="-1"></a><span class="co">#stock is stationary (p-value&lt;0.05)</span></span></code></pre></div>
+<div class="output execute_result" data-execution_count="27">
+<pre><code>(-4.432775258132062,
+ 0.0002596009817819147,
+ 1,
+ 935,
+ {&#39;1%&#39;: -3.437363201927513,
+  &#39;5%&#39;: -2.864636122077874,
+  &#39;10%&#39;: -2.5684185607252137},
+ 13320.64266001144)</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="28">
+<div class="sourceCode" id="cb32"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb32-1"><a href="#cb32-1" aria-hidden="true" tabindex="-1"></a>sts.adfuller(data[<span class="st">&#39;Price&#39;</span>])</span>
+<span id="cb32-2"><a href="#cb32-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb32-3"><a href="#cb32-3" aria-hidden="true" tabindex="-1"></a><span class="co">#data is stationary (p-value&lt;0.05)</span></span></code></pre></div>
+<div class="output execute_result" data-execution_count="28">
+<pre><code>(-4.5854371741841495,
+ 0.00013739285676424819,
+ 2,
+ 934,
+ {&#39;1%&#39;: -3.4373707314972766,
+  &#39;5%&#39;: -2.8646394422797337,
+  &#39;10%&#39;: -2.5684203292233905},
+ -90.17618431524147)</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="29">
+<div class="sourceCode" id="cb34"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb34-1"><a href="#cb34-1" aria-hidden="true" tabindex="-1"></a>sts.adfuller(data[<span class="st">&#39;Revenue&#39;</span>])</span>
+<span id="cb34-2"><a href="#cb34-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb34-3"><a href="#cb34-3" aria-hidden="true" tabindex="-1"></a><span class="co">#data is stationary (p-value&lt;0.05)</span></span></code></pre></div>
+<div class="output execute_result" data-execution_count="29">
+<pre><code>(-2.91320865437751,
+ 0.043833430309161016,
+ 21,
+ 915,
+ {&#39;1%&#39;: -3.437516929214992,
+  &#39;5%&#39;: -2.86470390726455,
+  &#39;10%&#39;: -2.5684546666069457},
+ 10894.08755939725)</code></pre>
+</div>
+</div>
+<section
+id="here-our-target-variable-is-sales-and-we-need-to-forecast-sales-hence-from-now-we-will-only-focus-on-sales-column"
+class="cell markdown">
+<h3>Here our target variable is Sales and we need to forecast sales
+hence from now we will only focus on Sales column</h3>
+</section>
+<div class="cell code" data-execution_count="30">
+<div class="sourceCode" id="cb36"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb36-1"><a href="#cb36-1" aria-hidden="true" tabindex="-1"></a><span class="co">#To understand seasonality in detail. Let&#39;s try Seasonal decomposition </span></span>
+<span id="cb36-2"><a href="#cb36-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb36-3"><a href="#cb36-3" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> statsmodels.tsa.seasonal <span class="im">import</span> seasonal_decompose</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="32">
+<div class="sourceCode" id="cb37"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb37-1"><a href="#cb37-1" aria-hidden="true" tabindex="-1"></a>sd_sales <span class="op">=</span> seasonal_decompose(data[<span class="st">&#39;Sales&#39;</span>], model<span class="op">=</span><span class="st">&#39;additive&#39;</span>, period <span class="op">=</span> <span class="dv">7</span>)</span>
+<span id="cb37-2"><a href="#cb37-2" aria-hidden="true" tabindex="-1"></a>sd_sales.plot()</span>
+<span id="cb37-3"><a href="#cb37-3" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_8ad573ae909d49debc4633633efdc651/d0cc02fea99267396b4e2e88216001e68202ed62.png" /></p>
+</div>
+</div>
+<div class="cell code" data-execution_count="33">
+<div class="sourceCode" id="cb38"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb38-1"><a href="#cb38-1" aria-hidden="true" tabindex="-1"></a>sd_sales.trend.plot(figsize <span class="op">=</span> (<span class="dv">40</span>,<span class="dv">15</span>))   <span class="co">#there is no indicative trend or pattern</span></span></code></pre></div>
+<div class="output execute_result" data-execution_count="33">
+<pre><code>&lt;Axes: xlabel=&#39;Date&#39;&gt;</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_8ad573ae909d49debc4633633efdc651/e7447d75cc769f120c68c250d7125091bd256c43.png" /></p>
+</div>
+</div>
+<div class="cell code" data-execution_count="34">
+<div class="sourceCode" id="cb40"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb40-1"><a href="#cb40-1" aria-hidden="true" tabindex="-1"></a>sd_sales.seasonal.plot(figsize <span class="op">=</span> (<span class="dv">50</span>,<span class="dv">15</span>)) <span class="co">#there is seasonality</span></span></code></pre></div>
+<div class="output execute_result" data-execution_count="34">
+<pre><code>&lt;Axes: xlabel=&#39;Date&#39;&gt;</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_8ad573ae909d49debc4633633efdc651/0b9ec593c0871d72eb28201141786e1af53d1a90.png" /></p>
+</div>
+</div>
+<div class="cell markdown">
+<p>There is seasonality but no trend</p>
+</div>
+<div class="cell code" data-execution_count="35">
+<div class="sourceCode" id="cb42"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb42-1"><a href="#cb42-1" aria-hidden="true" tabindex="-1"></a><span class="co">#to check correlation (if there is correlation we may have to opt for a different model)</span></span>
+<span id="cb42-2"><a href="#cb42-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb42-3"><a href="#cb42-3" aria-hidden="true" tabindex="-1"></a>data[[<span class="st">&#39;Sales&#39;</span>, <span class="st">&#39;Stock&#39;</span>, <span class="st">&#39;Price&#39;</span>]].corr()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="35">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Sales</th>
+      <th>Stock</th>
+      <th>Price</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>Sales</th>
+      <td>1.000000</td>
+      <td>0.153659</td>
+      <td>0.094779</td>
+    </tr>
+    <tr>
+      <th>Stock</th>
+      <td>0.153659</td>
+      <td>1.000000</td>
+      <td>-0.032604</td>
+    </tr>
+    <tr>
+      <th>Price</th>
+      <td>0.094779</td>
+      <td>-0.032604</td>
+      <td>1.000000</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="cell markdown">
+<p>Since there is no correlation between we can go for simple model</p>
+<p>We have 2 approaches to this: 1. difference the data (due to
+seasonality) and model (ARMA, Holt Winters) 2.</p>
+<p>without differencing go for more robust models (like XGBoosting)</p>
+</div>
+<div class="cell code" data-execution_count="36">
+<div class="sourceCode" id="cb43"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb43-1"><a href="#cb43-1" aria-hidden="true" tabindex="-1"></a><span class="co">#First Approach : </span></span>
+<span id="cb43-2"><a href="#cb43-2" aria-hidden="true" tabindex="-1"></a><span class="co">#as we have seasonality (non-stationary) data needs to be converted/flattened. </span></span>
+<span id="cb43-3"><a href="#cb43-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb43-4"><a href="#cb43-4" aria-hidden="true" tabindex="-1"></a>data[<span class="st">&#39;Sales_Shift&#39;</span>] <span class="op">=</span> data[<span class="st">&#39;Sales&#39;</span>].shift(periods <span class="op">=</span> <span class="dv">1</span>)</span>
+<span id="cb43-5"><a href="#cb43-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb43-6"><a href="#cb43-6" aria-hidden="true" tabindex="-1"></a><span class="co">#here period is 1 as we are taking one previous value</span></span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="37">
+<div class="sourceCode" id="cb44"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb44-1"><a href="#cb44-1" aria-hidden="true" tabindex="-1"></a>data.head( )</span></code></pre></div>
+<div class="output execute_result" data-execution_count="37">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Sales</th>
+      <th>Stock</th>
+      <th>Price</th>
+      <th>Day</th>
+      <th>Month</th>
+      <th>Year</th>
+      <th>Revenue</th>
+      <th>Sales_Shift</th>
+    </tr>
+    <tr>
+      <th>Date</th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>2014-01-01</th>
+      <td>0</td>
+      <td>4972</td>
+      <td>1.29</td>
+      <td>1</td>
+      <td>1</td>
+      <td>2014</td>
+      <td>0.00</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>2014-01-02</th>
+      <td>70</td>
+      <td>4902</td>
+      <td>1.29</td>
+      <td>2</td>
+      <td>1</td>
+      <td>2014</td>
+      <td>90.30</td>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <th>2014-01-03</th>
+      <td>59</td>
+      <td>4843</td>
+      <td>1.29</td>
+      <td>3</td>
+      <td>1</td>
+      <td>2014</td>
+      <td>76.11</td>
+      <td>70.0</td>
+    </tr>
+    <tr>
+      <th>2014-01-04</th>
+      <td>93</td>
+      <td>4750</td>
+      <td>1.29</td>
+      <td>4</td>
+      <td>1</td>
+      <td>2014</td>
+      <td>119.97</td>
+      <td>59.0</td>
+    </tr>
+    <tr>
+      <th>2014-01-05</th>
+      <td>96</td>
+      <td>4654</td>
+      <td>1.29</td>
+      <td>5</td>
+      <td>1</td>
+      <td>2014</td>
+      <td>123.84</td>
+      <td>93.0</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="cell code" data-execution_count="38">
+<div class="sourceCode" id="cb45"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb45-1"><a href="#cb45-1" aria-hidden="true" tabindex="-1"></a><span class="co">#differencing method (subtract Sales from Sales_shift)</span></span>
+<span id="cb45-2"><a href="#cb45-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb45-3"><a href="#cb45-3" aria-hidden="true" tabindex="-1"></a>data[<span class="st">&#39;diff&#39;</span>] <span class="op">=</span> data[<span class="st">&#39;Sales&#39;</span>]<span class="op">-</span>data[<span class="st">&#39;Sales_Shift&#39;</span>]</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="39">
+<div class="sourceCode" id="cb46"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb46-1"><a href="#cb46-1" aria-hidden="true" tabindex="-1"></a>data[<span class="st">&#39;diff&#39;</span>].plot()</span>
+<span id="cb46-2"><a href="#cb46-2" aria-hidden="true" tabindex="-1"></a><span class="co">#now the data is stationary </span></span></code></pre></div>
+<div class="output execute_result" data-execution_count="39">
+<pre><code>&lt;Axes: xlabel=&#39;Date&#39;&gt;</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_8ad573ae909d49debc4633633efdc651/29f0c1dc4454edd9522813310bf507db2cabacad.png" /></p>
+</div>
+</div>
+<div class="cell code" data-execution_count="40">
+<div class="sourceCode" id="cb48"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb48-1"><a href="#cb48-1" aria-hidden="true" tabindex="-1"></a>data.head()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="40">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Sales</th>
+      <th>Stock</th>
+      <th>Price</th>
+      <th>Day</th>
+      <th>Month</th>
+      <th>Year</th>
+      <th>Revenue</th>
+      <th>Sales_Shift</th>
+      <th>diff</th>
+    </tr>
+    <tr>
+      <th>Date</th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>2014-01-01</th>
+      <td>0</td>
+      <td>4972</td>
+      <td>1.29</td>
+      <td>1</td>
+      <td>1</td>
+      <td>2014</td>
+      <td>0.00</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>2014-01-02</th>
+      <td>70</td>
+      <td>4902</td>
+      <td>1.29</td>
+      <td>2</td>
+      <td>1</td>
+      <td>2014</td>
+      <td>90.30</td>
+      <td>0.0</td>
+      <td>70.0</td>
+    </tr>
+    <tr>
+      <th>2014-01-03</th>
+      <td>59</td>
+      <td>4843</td>
+      <td>1.29</td>
+      <td>3</td>
+      <td>1</td>
+      <td>2014</td>
+      <td>76.11</td>
+      <td>70.0</td>
+      <td>-11.0</td>
+    </tr>
+    <tr>
+      <th>2014-01-04</th>
+      <td>93</td>
+      <td>4750</td>
+      <td>1.29</td>
+      <td>4</td>
+      <td>1</td>
+      <td>2014</td>
+      <td>119.97</td>
+      <td>59.0</td>
+      <td>34.0</td>
+    </tr>
+    <tr>
+      <th>2014-01-05</th>
+      <td>96</td>
+      <td>4654</td>
+      <td>1.29</td>
+      <td>5</td>
+      <td>1</td>
+      <td>2014</td>
+      <td>123.84</td>
+      <td>93.0</td>
+      <td>3.0</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="cell code" data-execution_count="41">
+<div class="sourceCode" id="cb49"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb49-1"><a href="#cb49-1" aria-hidden="true" tabindex="-1"></a><span class="co">#since first value in diff is NaN we should exlude this while modelling or finding correlations </span></span>
+<span id="cb49-2"><a href="#cb49-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb49-3"><a href="#cb49-3" aria-hidden="true" tabindex="-1"></a>data1 <span class="op">=</span> data[<span class="dv">1</span>:]</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="42">
+<div class="sourceCode" id="cb50"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb50-1"><a href="#cb50-1" aria-hidden="true" tabindex="-1"></a><span class="co">#split the data into train and test</span></span>
+<span id="cb50-2"><a href="#cb50-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb50-3"><a href="#cb50-3" aria-hidden="true" tabindex="-1"></a>size <span class="op">=</span> <span class="bu">int</span>(<span class="bu">len</span>(data1)<span class="op">*</span><span class="fl">0.70</span>)   </span>
+<span id="cb50-4"><a href="#cb50-4" aria-hidden="true" tabindex="-1"></a><span class="co">#splitting the first 70% data zto train and the rest to test</span></span>
+<span id="cb50-5"><a href="#cb50-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb50-6"><a href="#cb50-6" aria-hidden="true" tabindex="-1"></a>train_data <span class="op">=</span> data1[:size]</span>
+<span id="cb50-7"><a href="#cb50-7" aria-hidden="true" tabindex="-1"></a>train_data.tail()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="42">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Sales</th>
+      <th>Stock</th>
+      <th>Price</th>
+      <th>Day</th>
+      <th>Month</th>
+      <th>Year</th>
+      <th>Revenue</th>
+      <th>Sales_Shift</th>
+      <th>diff</th>
+    </tr>
+    <tr>
+      <th>Date</th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>2015-10-20</th>
+      <td>93</td>
+      <td>1198</td>
+      <td>1.78</td>
+      <td>20</td>
+      <td>10</td>
+      <td>2015</td>
+      <td>165.54</td>
+      <td>120.0</td>
+      <td>-27.0</td>
+    </tr>
+    <tr>
+      <th>2015-10-21</th>
+      <td>100</td>
+      <td>1096</td>
+      <td>1.78</td>
+      <td>21</td>
+      <td>10</td>
+      <td>2015</td>
+      <td>178.00</td>
+      <td>93.0</td>
+      <td>7.0</td>
+    </tr>
+    <tr>
+      <th>2015-10-22</th>
+      <td>137</td>
+      <td>1055</td>
+      <td>1.27</td>
+      <td>22</td>
+      <td>10</td>
+      <td>2015</td>
+      <td>173.99</td>
+      <td>100.0</td>
+      <td>37.0</td>
+    </tr>
+    <tr>
+      <th>2015-10-23</th>
+      <td>241</td>
+      <td>1006</td>
+      <td>1.27</td>
+      <td>23</td>
+      <td>10</td>
+      <td>2015</td>
+      <td>306.07</td>
+      <td>137.0</td>
+      <td>104.0</td>
+    </tr>
+    <tr>
+      <th>2015-10-24</th>
+      <td>113</td>
+      <td>893</td>
+      <td>1.27</td>
+      <td>24</td>
+      <td>10</td>
+      <td>2015</td>
+      <td>143.51</td>
+      <td>241.0</td>
+      <td>-128.0</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="cell code" data-execution_count="43">
+<div class="sourceCode" id="cb51"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb51-1"><a href="#cb51-1" aria-hidden="true" tabindex="-1"></a>test_data <span class="op">=</span> data1[size:]</span>
+<span id="cb51-2"><a href="#cb51-2" aria-hidden="true" tabindex="-1"></a>test_data.head()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="43">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Sales</th>
+      <th>Stock</th>
+      <th>Price</th>
+      <th>Day</th>
+      <th>Month</th>
+      <th>Year</th>
+      <th>Revenue</th>
+      <th>Sales_Shift</th>
+      <th>diff</th>
+    </tr>
+    <tr>
+      <th>Date</th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>2015-10-25</th>
+      <td>257</td>
+      <td>636</td>
+      <td>1.28</td>
+      <td>25</td>
+      <td>10</td>
+      <td>2015</td>
+      <td>328.96</td>
+      <td>113.0</td>
+      <td>144.0</td>
+    </tr>
+    <tr>
+      <th>2015-10-26</th>
+      <td>166</td>
+      <td>474</td>
+      <td>1.28</td>
+      <td>26</td>
+      <td>10</td>
+      <td>2015</td>
+      <td>212.48</td>
+      <td>257.0</td>
+      <td>-91.0</td>
+    </tr>
+    <tr>
+      <th>2015-10-27</th>
+      <td>162</td>
+      <td>312</td>
+      <td>1.28</td>
+      <td>27</td>
+      <td>10</td>
+      <td>2015</td>
+      <td>207.36</td>
+      <td>166.0</td>
+      <td>-4.0</td>
+    </tr>
+    <tr>
+      <th>2015-10-28</th>
+      <td>247</td>
+      <td>1121</td>
+      <td>1.28</td>
+      <td>28</td>
+      <td>10</td>
+      <td>2015</td>
+      <td>316.16</td>
+      <td>162.0</td>
+      <td>85.0</td>
+    </tr>
+    <tr>
+      <th>2015-10-29</th>
+      <td>70</td>
+      <td>1435</td>
+      <td>1.78</td>
+      <td>29</td>
+      <td>10</td>
+      <td>2015</td>
+      <td>124.60</td>
+      <td>247.0</td>
+      <td>-177.0</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="cell markdown">
+<p>To determine the appropriate ARIMA order values for your time series
+analysis, you can follow these steps:</p>
+<ol>
+<li><p><strong>Visualize the Time Series Data:</strong> Plot the time
+series data and examine its patterns, trends, and seasonality. This will
+help you gain insights into the data and determine if any
+transformations or differencing may be necessary.</p></li>
+<li><p><strong>Stationarity:</strong> Check the stationarity of the time
+series. Stationarity is a key assumption for ARIMA models. You can use
+statistical tests like the Augmented Dickey-Fuller (ADF) test or
+visually inspect the data for constant mean and variance over time. If
+the data is not stationary, you may need to apply differencing to make
+it stationary.</p></li>
+<li><p><strong>Autocorrelation and Partial Autocorrelation
+Analysis:</strong> Examine the autocorrelation and partial
+autocorrelation plots (ACF and PACF) of the differenced time series
+data. These plots can provide insights into the possible values for the
+order of the AR (autoregressive) and MA (moving average) components of
+the ARIMA model.</p>
+<ul>
+<li>ACF Plot: The ACF plot shows the correlation between the current
+observation and its lagged values. Significant autocorrelation at lag k
+suggests the inclusion of an AR component of order k in the model.</li>
+<li>PACF Plot: The PACF plot shows the correlation between the current
+observation and its lagged values, excluding the influence of
+intermediate lags. Significant partial autocorrelation at lag k suggests
+the inclusion of an MA component of order k in the model.</li>
+</ul>
+<p>Based on the ACF and PACF plots, you can identify potential values
+for p (AR order) and q (MA order) respectively.</p></li>
+<li><p><strong>Determine the Integration Order (d):</strong> If
+differencing was applied to achieve stationarity, the differencing order
+(d) is determined by the number of times differencing was required. If
+the data was stationary from the beginning, d would be 0.</p></li>
+<li><p><strong>Try Different ARIMA Models:</strong> Based on the
+information gathered from steps 3 and 4, you can now try different
+combinations of AR, MA, and differencing orders to build different ARIMA
+models. Fit these models to your data and evaluate their performance
+using appropriate evaluation metrics such as AIC (Akaike Information
+Criterion) or BIC (Bayesian Information Criterion).</p></li>
+<li><p><strong>Select the Best Model:</strong> Choose the ARIMA model
+with the lowest AIC or BIC value, indicating the best trade-off between
+goodness of fit and model complexity.</p></li>
+<li><p><strong>Check Residuals:</strong> Once you have selected the best
+ARIMA model, examine the residuals to ensure they are normally
+distributed and do not exhibit any remaining patterns or significant
+autocorrelation. If necessary, you may need to iterate and refine your
+model selection.</p></li>
+</ol>
+<p>By following these steps, you can determine the appropriate ARIMA
+order values for your time series analysis and build an effective
+forecasting model. Keep in mind that the selection process may require
+some experimentation and domain expertise to achieve the best
+results.</p>
+</div>
+<div class="cell code" data-execution_count="44">
+<div class="sourceCode" id="cb52"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb52-1"><a href="#cb52-1" aria-hidden="true" tabindex="-1"></a><span class="co">#AR model</span></span>
+<span id="cb52-2"><a href="#cb52-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb52-3"><a href="#cb52-3" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> statsmodels.tsa.arima.model <span class="im">import</span> ARIMA</span>
+<span id="cb52-4"><a href="#cb52-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb52-5"><a href="#cb52-5" aria-hidden="true" tabindex="-1"></a>ar_model <span class="op">=</span> ARIMA(train_data[<span class="st">&#39;diff&#39;</span>], order <span class="op">=</span> (<span class="dv">6</span>, <span class="dv">0</span>, <span class="dv">0</span>))</span>
+<span id="cb52-6"><a href="#cb52-6" aria-hidden="true" tabindex="-1"></a>ar_model_results <span class="op">=</span> ar_model.fit()</span>
+<span id="cb52-7"><a href="#cb52-7" aria-hidden="true" tabindex="-1"></a>ar_model_results.summary()</span></code></pre></div>
+<div class="output stream stderr">
+<pre><code>/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
+  self._init_dates(dates, freq)
+/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
+  self._init_dates(dates, freq)
+/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
+  self._init_dates(dates, freq)
+</code></pre>
+</div>
+<div class="output execute_result" data-execution_count="44">
+<table class="simpletable">
+<caption>SARIMAX Results</caption>
+<tr>
+  <th>Dep. Variable:</th>         <td>diff</td>       <th>  No. Observations:  </th>    <td>655</td>   
+</tr>
+<tr>
+  <th>Model:</th>            <td>ARIMA(6, 0, 0)</td>  <th>  Log Likelihood     </th> <td>-3594.354</td>
+</tr>
+<tr>
+  <th>Date:</th>            <td>Mon, 12 Jun 2023</td> <th>  AIC                </th> <td>7204.709</td> 
+</tr>
+<tr>
+  <th>Time:</th>                <td>05:56:17</td>     <th>  BIC                </th> <td>7240.586</td> 
+</tr>
+<tr>
+  <th>Sample:</th>                  <td>0</td>        <th>  HQIC               </th> <td>7218.620</td> 
+</tr>
+<tr>
+  <th></th>                      <td> - 655</td>      <th>                     </th>     <td> </td>    
+</tr>
+<tr>
+  <th>Covariance Type:</th>        <td>opg</td>       <th>                     </th>     <td> </td>    
+</tr>
+</table>
+<table class="simpletable">
+<tr>
+     <td></td>       <th>coef</th>     <th>std err</th>      <th>z</th>      <th>P>|z|</th>  <th>[0.025</th>    <th>0.975]</th>  
+</tr>
+<tr>
+  <th>const</th>  <td>    0.1134</td> <td>    1.033</td> <td>    0.110</td> <td> 0.913</td> <td>   -1.911</td> <td>    2.138</td>
+</tr>
+<tr>
+  <th>ar.L1</th>  <td>   -0.3672</td> <td>    0.027</td> <td>  -13.775</td> <td> 0.000</td> <td>   -0.419</td> <td>   -0.315</td>
+</tr>
+<tr>
+  <th>ar.L2</th>  <td>   -0.3597</td> <td>    0.030</td> <td>  -11.965</td> <td> 0.000</td> <td>   -0.419</td> <td>   -0.301</td>
+</tr>
+<tr>
+  <th>ar.L3</th>  <td>   -0.2750</td> <td>    0.039</td> <td>   -7.035</td> <td> 0.000</td> <td>   -0.352</td> <td>   -0.198</td>
+</tr>
+<tr>
+  <th>ar.L4</th>  <td>   -0.2365</td> <td>    0.039</td> <td>   -6.067</td> <td> 0.000</td> <td>   -0.313</td> <td>   -0.160</td>
+</tr>
+<tr>
+  <th>ar.L5</th>  <td>   -0.2239</td> <td>    0.036</td> <td>   -6.180</td> <td> 0.000</td> <td>   -0.295</td> <td>   -0.153</td>
+</tr>
+<tr>
+  <th>ar.L6</th>  <td>   -0.1242</td> <td>    0.035</td> <td>   -3.600</td> <td> 0.000</td> <td>   -0.192</td> <td>   -0.057</td>
+</tr>
+<tr>
+  <th>sigma2</th> <td> 3421.5550</td> <td>  102.983</td> <td>   33.224</td> <td> 0.000</td> <td> 3219.712</td> <td> 3623.398</td>
+</tr>
+</table>
+<table class="simpletable">
+<tr>
+  <th>Ljung-Box (L1) (Q):</th>     <td>0.00</td> <th>  Jarque-Bera (JB):  </th> <td>1491.36</td>
+</tr>
+<tr>
+  <th>Prob(Q):</th>                <td>0.96</td> <th>  Prob(JB):          </th>  <td>0.00</td>  
+</tr>
+<tr>
+  <th>Heteroskedasticity (H):</th> <td>1.61</td> <th>  Skew:              </th>  <td>1.06</td>  
+</tr>
+<tr>
+  <th>Prob(H) (two-sided):</th>    <td>0.00</td> <th>  Kurtosis:          </th>  <td>10.08</td> 
+</tr>
+</table><br/><br/>Warnings:<br/>[1] Covariance matrix calculated using the outer product of gradients (complex-step).
+</div>
+</div>
+<section
+id="we-found-that-the-more-number-of-lags-higher-the-aic-hence-we-stopped-ar6-had-low-aic"
+class="cell markdown">
+<h3>we found that the more number of lags higher the AIC hence we
+stopped. AR(6) had low AIC</h3>
+</section>
+<div class="cell code" data-execution_count="47">
+<div class="sourceCode" id="cb54"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb54-1"><a href="#cb54-1" aria-hidden="true" tabindex="-1"></a><span class="co">#MA model</span></span>
+<span id="cb54-2"><a href="#cb54-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb54-3"><a href="#cb54-3" aria-hidden="true" tabindex="-1"></a>ma_model <span class="op">=</span> ARIMA(train_data[<span class="st">&#39;diff&#39;</span>], order <span class="op">=</span> (<span class="dv">0</span>, <span class="dv">0</span>, <span class="dv">5</span>))</span>
+<span id="cb54-4"><a href="#cb54-4" aria-hidden="true" tabindex="-1"></a>ma_model_results <span class="op">=</span> ma_model.fit()</span>
+<span id="cb54-5"><a href="#cb54-5" aria-hidden="true" tabindex="-1"></a>ma_model_results.summary()</span></code></pre></div>
+<div class="output stream stderr">
+<pre><code>/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
+  self._init_dates(dates, freq)
+/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
+  self._init_dates(dates, freq)
+/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
+  self._init_dates(dates, freq)
+</code></pre>
+</div>
+<div class="output execute_result" data-execution_count="47">
+<table class="simpletable">
+<caption>SARIMAX Results</caption>
+<tr>
+  <th>Dep. Variable:</th>         <td>diff</td>       <th>  No. Observations:  </th>    <td>655</td>   
+</tr>
+<tr>
+  <th>Model:</th>            <td>ARIMA(0, 0, 5)</td>  <th>  Log Likelihood     </th> <td>-3581.890</td>
+</tr>
+<tr>
+  <th>Date:</th>            <td>Mon, 12 Jun 2023</td> <th>  AIC                </th> <td>7177.780</td> 
+</tr>
+<tr>
+  <th>Time:</th>                <td>06:26:01</td>     <th>  BIC                </th> <td>7209.173</td> 
+</tr>
+<tr>
+  <th>Sample:</th>                  <td>0</td>        <th>  HQIC               </th> <td>7189.952</td> 
+</tr>
+<tr>
+  <th></th>                      <td> - 655</td>      <th>                     </th>     <td> </td>    
+</tr>
+<tr>
+  <th>Covariance Type:</th>        <td>opg</td>       <th>                     </th>     <td> </td>    
+</tr>
+</table>
+<table class="simpletable">
+<tr>
+     <td></td>       <th>coef</th>     <th>std err</th>      <th>z</th>      <th>P>|z|</th>  <th>[0.025</th>    <th>0.975]</th>  
+</tr>
+<tr>
+  <th>const</th>  <td>   -0.0060</td> <td>    0.087</td> <td>   -0.069</td> <td> 0.945</td> <td>   -0.177</td> <td>    0.165</td>
+</tr>
+<tr>
+  <th>ma.L1</th>  <td>   -0.4163</td> <td>    0.030</td> <td>  -13.896</td> <td> 0.000</td> <td>   -0.475</td> <td>   -0.358</td>
+</tr>
+<tr>
+  <th>ma.L2</th>  <td>   -0.2653</td> <td>    0.035</td> <td>   -7.653</td> <td> 0.000</td> <td>   -0.333</td> <td>   -0.197</td>
+</tr>
+<tr>
+  <th>ma.L3</th>  <td>   -0.1045</td> <td>    0.045</td> <td>   -2.321</td> <td> 0.020</td> <td>   -0.193</td> <td>   -0.016</td>
+</tr>
+<tr>
+  <th>ma.L4</th>  <td>   -0.0900</td> <td>    0.043</td> <td>   -2.112</td> <td> 0.035</td> <td>   -0.174</td> <td>   -0.007</td>
+</tr>
+<tr>
+  <th>ma.L5</th>  <td>   -0.0981</td> <td>    0.037</td> <td>   -2.622</td> <td> 0.009</td> <td>   -0.172</td> <td>   -0.025</td>
+</tr>
+<tr>
+  <th>sigma2</th> <td> 3278.6073</td> <td>   95.619</td> <td>   34.288</td> <td> 0.000</td> <td> 3091.198</td> <td> 3466.017</td>
+</tr>
+</table>
+<table class="simpletable">
+<tr>
+  <th>Ljung-Box (L1) (Q):</th>     <td>0.00</td> <th>  Jarque-Bera (JB):  </th> <td>2061.49</td>
+</tr>
+<tr>
+  <th>Prob(Q):</th>                <td>0.97</td> <th>  Prob(JB):          </th>  <td>0.00</td>  
+</tr>
+<tr>
+  <th>Heteroskedasticity (H):</th> <td>1.67</td> <th>  Skew:              </th>  <td>1.61</td>  
+</tr>
+<tr>
+  <th>Prob(H) (two-sided):</th>    <td>0.00</td> <th>  Kurtosis:          </th>  <td>11.07</td> 
+</tr>
+</table><br/><br/>Warnings:<br/>[1] Covariance matrix calculated using the outer product of gradients (complex-step).
+</div>
+</div>
+<div class="cell code" data-execution_count="48">
+<div class="sourceCode" id="cb56"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb56-1"><a href="#cb56-1" aria-hidden="true" tabindex="-1"></a><span class="co">#ARMA model</span></span>
+<span id="cb56-2"><a href="#cb56-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb56-3"><a href="#cb56-3" aria-hidden="true" tabindex="-1"></a>arma_model <span class="op">=</span> ARIMA(train_data[<span class="st">&#39;diff&#39;</span>], order <span class="op">=</span> (<span class="dv">1</span>, <span class="dv">0</span>, <span class="dv">1</span>))</span>
+<span id="cb56-4"><a href="#cb56-4" aria-hidden="true" tabindex="-1"></a>arma_model_results <span class="op">=</span> arma_model.fit()</span>
+<span id="cb56-5"><a href="#cb56-5" aria-hidden="true" tabindex="-1"></a>arma_model_results.summary()</span></code></pre></div>
+<div class="output stream stderr">
+<pre><code>/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
+  self._init_dates(dates, freq)
+/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
+  self._init_dates(dates, freq)
+/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
+  self._init_dates(dates, freq)
+</code></pre>
+</div>
+<div class="output execute_result" data-execution_count="48">
+<table class="simpletable">
+<caption>SARIMAX Results</caption>
+<tr>
+  <th>Dep. Variable:</th>         <td>diff</td>       <th>  No. Observations:  </th>    <td>655</td>   
+</tr>
+<tr>
+  <th>Model:</th>            <td>ARIMA(1, 0, 1)</td>  <th>  Log Likelihood     </th> <td>-3581.809</td>
+</tr>
+<tr>
+  <th>Date:</th>            <td>Mon, 12 Jun 2023</td> <th>  AIC                </th> <td>7171.618</td> 
+</tr>
+<tr>
+  <th>Time:</th>                <td>06:27:14</td>     <th>  BIC                </th> <td>7189.556</td> 
+</tr>
+<tr>
+  <th>Sample:</th>                  <td>0</td>        <th>  HQIC               </th> <td>7178.573</td> 
+</tr>
+<tr>
+  <th></th>                      <td> - 655</td>      <th>                     </th>     <td> </td>    
+</tr>
+<tr>
+  <th>Covariance Type:</th>        <td>opg</td>       <th>                     </th>     <td> </td>    
+</tr>
+</table>
+<table class="simpletable">
+<tr>
+     <td></td>       <th>coef</th>     <th>std err</th>      <th>z</th>      <th>P>|z|</th>  <th>[0.025</th>    <th>0.975]</th>  
+</tr>
+<tr>
+  <th>const</th>  <td>    0.0020</td> <td>    0.042</td> <td>    0.048</td> <td> 0.962</td> <td>   -0.081</td> <td>    0.085</td>
+</tr>
+<tr>
+  <th>ar.L1</th>  <td>    0.5787</td> <td>    0.027</td> <td>   21.392</td> <td> 0.000</td> <td>    0.526</td> <td>    0.632</td>
+</tr>
+<tr>
+  <th>ma.L1</th>  <td>   -0.9966</td> <td>    0.010</td> <td> -100.311</td> <td> 0.000</td> <td>   -1.016</td> <td>   -0.977</td>
+</tr>
+<tr>
+  <th>sigma2</th> <td> 3274.2356</td> <td>   98.172</td> <td>   33.352</td> <td> 0.000</td> <td> 3081.821</td> <td> 3466.650</td>
+</tr>
+</table>
+<table class="simpletable">
+<tr>
+  <th>Ljung-Box (L1) (Q):</th>     <td>0.01</td> <th>  Jarque-Bera (JB):  </th> <td>2205.15</td>
+</tr>
+<tr>
+  <th>Prob(Q):</th>                <td>0.91</td> <th>  Prob(JB):          </th>  <td>0.00</td>  
+</tr>
+<tr>
+  <th>Heteroskedasticity (H):</th> <td>1.62</td> <th>  Skew:              </th>  <td>1.65</td>  
+</tr>
+<tr>
+  <th>Prob(H) (two-sided):</th>    <td>0.00</td> <th>  Kurtosis:          </th>  <td>11.36</td> 
+</tr>
+</table><br/><br/>Warnings:<br/>[1] Covariance matrix calculated using the outer product of gradients (complex-step).
+</div>
+</div>
+<div class="cell code" data-execution_count="49">
+<div class="sourceCode" id="cb58"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb58-1"><a href="#cb58-1" aria-hidden="true" tabindex="-1"></a><span class="co">#for predictions importing necessary libraries</span></span>
+<span id="cb58-2"><a href="#cb58-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb58-3"><a href="#cb58-3" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.linear_model <span class="im">import</span> LinearRegression</span>
+<span id="cb58-4"><a href="#cb58-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb58-5"><a href="#cb58-5" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.metrics <span class="im">import</span> mean_squared_error</span>
+<span id="cb58-6"><a href="#cb58-6" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> math</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="50">
+<div class="sourceCode" id="cb59"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb59-1"><a href="#cb59-1" aria-hidden="true" tabindex="-1"></a><span class="co">#Predicting the test data using AR model</span></span>
+<span id="cb59-2"><a href="#cb59-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb59-3"><a href="#cb59-3" aria-hidden="true" tabindex="-1"></a>start <span class="op">=</span> <span class="bu">len</span>(train_data[<span class="st">&#39;diff&#39;</span>])</span>
+<span id="cb59-4"><a href="#cb59-4" aria-hidden="true" tabindex="-1"></a>end <span class="op">=</span> <span class="bu">len</span>(train_data[<span class="st">&#39;diff&#39;</span>])<span class="op">+</span><span class="bu">len</span>(test_data[<span class="st">&#39;diff&#39;</span>])<span class="op">-</span><span class="dv">1</span></span>
+<span id="cb59-5"><a href="#cb59-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb59-6"><a href="#cb59-6" aria-hidden="true" tabindex="-1"></a>Prediction1 <span class="op">=</span> ar_model_results.predict(start<span class="op">=</span>start, end<span class="op">=</span>end)</span>
+<span id="cb59-7"><a href="#cb59-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb59-8"><a href="#cb59-8" aria-hidden="true" tabindex="-1"></a>Prediction1.index <span class="op">=</span> data1.index[start:end<span class="op">+</span><span class="dv">1</span>]</span>
+<span id="cb59-9"><a href="#cb59-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb59-10"><a href="#cb59-10" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(Prediction1)</span>
+<span id="cb59-11"><a href="#cb59-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb59-12"><a href="#cb59-12" aria-hidden="true" tabindex="-1"></a>Prediction1.plot(figsize <span class="op">=</span> (<span class="dv">15</span>, <span class="dv">5</span>), color <span class="op">=</span> <span class="st">&#39;red&#39;</span>)</span>
+<span id="cb59-13"><a href="#cb59-13" aria-hidden="true" tabindex="-1"></a>test_data[<span class="st">&#39;diff&#39;</span>].plot(figsize <span class="op">=</span> (<span class="dv">15</span>, <span class="dv">5</span>), color <span class="op">=</span> <span class="st">&#39;blue&#39;</span>)</span>
+<span id="cb59-14"><a href="#cb59-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb59-15"><a href="#cb59-15" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;Actual vs Predictions for test data using AR model&#39;</span>)</span>
+<span id="cb59-16"><a href="#cb59-16" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output stream stderr">
+<pre><code>/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/statsmodels/tsa/base/tsa_model.py:836: ValueWarning: No supported index is available. Prediction results will be given with an integer index beginning at `start`.
+  return get_prediction_index(
+/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/statsmodels/tsa/base/tsa_model.py:836: FutureWarning: No supported index is available. In the next version, calling this method in a model without a supported index will result in an exception.
+  return get_prediction_index(
+</code></pre>
+</div>
+<div class="output stream stdout">
+<pre><code>Date
+2015-10-25    10.814400
+2015-10-26     6.797561
+2015-10-27    -4.641765
+2015-10-28    -1.036389
+2015-10-29    13.660666
+                ...    
+2016-07-27     0.113372
+2016-07-28     0.113372
+2016-07-29     0.113372
+2016-07-30     0.113372
+2016-07-31     0.113372
+Name: predicted_mean, Length: 281, dtype: float64
+</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_8ad573ae909d49debc4633633efdc651/3a867d93e07f2233f1c77d88c20010ca30dede92.png" /></p>
+</div>
+</div>
+<div class="cell code" data-execution_count="51">
+<div class="sourceCode" id="cb62"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb62-1"><a href="#cb62-1" aria-hidden="true" tabindex="-1"></a>rmse1 <span class="op">=</span> math.sqrt(mean_squared_error(test_data[<span class="st">&#39;diff&#39;</span>], Prediction1))</span>
+<span id="cb62-2"><a href="#cb62-2" aria-hidden="true" tabindex="-1"></a>rmse1</span></code></pre></div>
+<div class="output execute_result" data-execution_count="51">
+<pre><code>75.41311538720001</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="53">
+<div class="sourceCode" id="cb64"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb64-1"><a href="#cb64-1" aria-hidden="true" tabindex="-1"></a><span class="co">#Predicting the test data using MA model</span></span>
+<span id="cb64-2"><a href="#cb64-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb64-3"><a href="#cb64-3" aria-hidden="true" tabindex="-1"></a>Prediction2 <span class="op">=</span> ma_model_results.predict(start<span class="op">=</span>start, end<span class="op">=</span>end)</span>
+<span id="cb64-4"><a href="#cb64-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb64-5"><a href="#cb64-5" aria-hidden="true" tabindex="-1"></a>Prediction2.index <span class="op">=</span> data1.index[start:end<span class="op">+</span><span class="dv">1</span>]</span>
+<span id="cb64-6"><a href="#cb64-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb64-7"><a href="#cb64-7" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(Prediction2)</span>
+<span id="cb64-8"><a href="#cb64-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb64-9"><a href="#cb64-9" aria-hidden="true" tabindex="-1"></a>Prediction2.plot(figsize <span class="op">=</span> (<span class="dv">15</span>, <span class="dv">5</span>), color <span class="op">=</span> <span class="st">&#39;red&#39;</span>)</span>
+<span id="cb64-10"><a href="#cb64-10" aria-hidden="true" tabindex="-1"></a>test_data[<span class="st">&#39;diff&#39;</span>].plot(figsize <span class="op">=</span> (<span class="dv">15</span>, <span class="dv">5</span>), color <span class="op">=</span> <span class="st">&#39;blue&#39;</span>)</span>
+<span id="cb64-11"><a href="#cb64-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb64-12"><a href="#cb64-12" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;Actual vs Predictions for test data using MA model&#39;</span>)</span>
+<span id="cb64-13"><a href="#cb64-13" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output stream stderr">
+<pre><code>/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/statsmodels/tsa/base/tsa_model.py:836: ValueWarning: No supported index is available. Prediction results will be given with an integer index beginning at `start`.
+  return get_prediction_index(
+/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/statsmodels/tsa/base/tsa_model.py:836: FutureWarning: No supported index is available. In the next version, calling this method in a model without a supported index will result in an exception.
+  return get_prediction_index(
+</code></pre>
+</div>
+<div class="output stream stdout">
+<pre><code>Date
+2015-10-25   -13.508666
+2015-10-26    -2.500030
+2015-10-27    -9.613924
+2015-10-28    -7.137979
+2015-10-29     6.154558
+                ...    
+2016-07-27    -0.005983
+2016-07-28    -0.005983
+2016-07-29    -0.005983
+2016-07-30    -0.005983
+2016-07-31    -0.005983
+Name: predicted_mean, Length: 281, dtype: float64
+</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_8ad573ae909d49debc4633633efdc651/a0601b051bb6f9bc2302018bf226025cde5917a9.png" /></p>
+</div>
+</div>
+<div class="cell code" data-execution_count="54">
+<div class="sourceCode" id="cb67"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb67-1"><a href="#cb67-1" aria-hidden="true" tabindex="-1"></a>rmse2 <span class="op">=</span> math.sqrt(mean_squared_error(test_data[<span class="st">&#39;diff&#39;</span>], Prediction2))</span>
+<span id="cb67-2"><a href="#cb67-2" aria-hidden="true" tabindex="-1"></a>rmse2</span></code></pre></div>
+<div class="output execute_result" data-execution_count="54">
+<pre><code>75.50499268843697</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="55">
+<div class="sourceCode" id="cb69"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb69-1"><a href="#cb69-1" aria-hidden="true" tabindex="-1"></a><span class="co">#Predicting the test data using ARMA model</span></span>
+<span id="cb69-2"><a href="#cb69-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb69-3"><a href="#cb69-3" aria-hidden="true" tabindex="-1"></a>Prediction3 <span class="op">=</span> arma_model_results.predict(start<span class="op">=</span>start, end<span class="op">=</span>end)</span>
+<span id="cb69-4"><a href="#cb69-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb69-5"><a href="#cb69-5" aria-hidden="true" tabindex="-1"></a>Prediction3.index <span class="op">=</span> data1.index[start:end<span class="op">+</span><span class="dv">1</span>]</span>
+<span id="cb69-6"><a href="#cb69-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb69-7"><a href="#cb69-7" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(Prediction3)</span>
+<span id="cb69-8"><a href="#cb69-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb69-9"><a href="#cb69-9" aria-hidden="true" tabindex="-1"></a>Prediction3.plot(figsize <span class="op">=</span> (<span class="dv">15</span>, <span class="dv">5</span>), color <span class="op">=</span> <span class="st">&#39;red&#39;</span>)</span>
+<span id="cb69-10"><a href="#cb69-10" aria-hidden="true" tabindex="-1"></a>test_data[<span class="st">&#39;diff&#39;</span>].plot(figsize <span class="op">=</span> (<span class="dv">15</span>, <span class="dv">5</span>), color <span class="op">=</span> <span class="st">&#39;blue&#39;</span>)</span>
+<span id="cb69-11"><a href="#cb69-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb69-12"><a href="#cb69-12" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;Actual vs Predictions for test data using ARMA model&#39;</span>)</span>
+<span id="cb69-13"><a href="#cb69-13" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Date
+2015-10-25   -14.892018
+2015-10-26    -8.616492
+2015-10-27    -4.985125
+2015-10-28    -2.883815
+2015-10-29    -1.667880
+                ...    
+2016-07-27     0.002030
+2016-07-28     0.002030
+2016-07-29     0.002030
+2016-07-30     0.002030
+2016-07-31     0.002030
+Name: predicted_mean, Length: 281, dtype: float64
+</code></pre>
+</div>
+<div class="output stream stderr">
+<pre><code>/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/statsmodels/tsa/base/tsa_model.py:836: ValueWarning: No supported index is available. Prediction results will be given with an integer index beginning at `start`.
+  return get_prediction_index(
+/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/statsmodels/tsa/base/tsa_model.py:836: FutureWarning: No supported index is available. In the next version, calling this method in a model without a supported index will result in an exception.
+  return get_prediction_index(
+</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_8ad573ae909d49debc4633633efdc651/c04dfdf09f83d3ac8021ced4e787f0a510d8c105.png" /></p>
+</div>
+</div>
+<div class="cell code" data-execution_count="56">
+<div class="sourceCode" id="cb72"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb72-1"><a href="#cb72-1" aria-hidden="true" tabindex="-1"></a>rmse3 <span class="op">=</span> math.sqrt(mean_squared_error(test_data[<span class="st">&#39;diff&#39;</span>], Prediction3))</span>
+<span id="cb72-2"><a href="#cb72-2" aria-hidden="true" tabindex="-1"></a>rmse3</span></code></pre></div>
+<div class="output execute_result" data-execution_count="56">
+<pre><code>75.41014193095506</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="58">
+<div class="sourceCode" id="cb74"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb74-1"><a href="#cb74-1" aria-hidden="true" tabindex="-1"></a><span class="co">#build simple exponential smoothing model and forecast</span></span>
+<span id="cb74-2"><a href="#cb74-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb74-3"><a href="#cb74-3" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> statsmodels.tsa.api <span class="im">import</span> SimpleExpSmoothing</span>
+<span id="cb74-4"><a href="#cb74-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb74-5"><a href="#cb74-5" aria-hidden="true" tabindex="-1"></a>ses_model <span class="op">=</span> SimpleExpSmoothing(train_data[<span class="st">&#39;diff&#39;</span>])</span>
+<span id="cb74-6"><a href="#cb74-6" aria-hidden="true" tabindex="-1"></a>ses_model_results <span class="op">=</span> ses_model.fit()</span>
+<span id="cb74-7"><a href="#cb74-7" aria-hidden="true" tabindex="-1"></a><span class="bu">len</span>(test_data[<span class="st">&#39;diff&#39;</span>])</span>
+<span id="cb74-8"><a href="#cb74-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb74-9"><a href="#cb74-9" aria-hidden="true" tabindex="-1"></a>start_index <span class="op">=</span> <span class="bu">len</span>(train_data[<span class="st">&#39;diff&#39;</span>])</span>
+<span id="cb74-10"><a href="#cb74-10" aria-hidden="true" tabindex="-1"></a>end_index <span class="op">=</span> <span class="bu">len</span>(train_data[<span class="st">&#39;diff&#39;</span>]) <span class="op">+</span> <span class="bu">len</span>(test_data[<span class="st">&#39;diff&#39;</span>])<span class="op">-</span><span class="dv">1</span></span>
+<span id="cb74-11"><a href="#cb74-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb74-12"><a href="#cb74-12" aria-hidden="true" tabindex="-1"></a>Prediction5 <span class="op">=</span> ses_model_results.predict(start_index, end_index)</span>
+<span id="cb74-13"><a href="#cb74-13" aria-hidden="true" tabindex="-1"></a>Prediction5.index <span class="op">=</span> data1.index[start_index:end_index<span class="op">+</span><span class="dv">1</span>]</span>
+<span id="cb74-14"><a href="#cb74-14" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(Prediction5)</span>
+<span id="cb74-15"><a href="#cb74-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb74-16"><a href="#cb74-16" aria-hidden="true" tabindex="-1"></a>actual_vs_pred <span class="op">=</span> pd.concat([test_data[<span class="st">&#39;diff&#39;</span>], Prediction5], axis<span class="op">=</span><span class="dv">1</span>)</span>
+<span id="cb74-17"><a href="#cb74-17" aria-hidden="true" tabindex="-1"></a>actual_vs_pred.plot(figsize <span class="op">=</span> (<span class="dv">15</span>,<span class="dv">5</span>))</span>
+<span id="cb74-18"><a href="#cb74-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb74-19"><a href="#cb74-19" aria-hidden="true" tabindex="-1"></a>rmse5 <span class="op">=</span> math.sqrt(mean_squared_error(test_data[<span class="st">&#39;diff&#39;</span>], Prediction5))</span>
+<span id="cb74-20"><a href="#cb74-20" aria-hidden="true" tabindex="-1"></a>rmse5</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Date
+2015-10-25    0.471432
+2015-10-26    0.471432
+2015-10-27    0.471432
+2015-10-28    0.471432
+2015-10-29    0.471432
+                ...   
+2016-07-27    0.471432
+2016-07-28    0.471432
+2016-07-29    0.471432
+2016-07-30    0.471432
+2016-07-31    0.471432
+Length: 281, dtype: float64
+</code></pre>
+</div>
+<div class="output stream stderr">
+<pre><code>/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
+  self._init_dates(dates, freq)
+/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/statsmodels/tsa/base/tsa_model.py:836: ValueWarning: No supported index is available. Prediction results will be given with an integer index beginning at `start`.
+  return get_prediction_index(
+/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/statsmodels/tsa/base/tsa_model.py:836: FutureWarning: No supported index is available. In the next version, calling this method in a model without a supported index will result in an exception.
+  return get_prediction_index(
+</code></pre>
+</div>
+<div class="output execute_result" data-execution_count="58">
+<pre><code>75.33688163209305</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_8ad573ae909d49debc4633633efdc651/2d19d9153de439e0cf3ded224c49955039745c85.png" /></p>
+</div>
+</div>
+<div class="cell code" data-execution_count="59">
+<div class="sourceCode" id="cb78"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb78-1"><a href="#cb78-1" aria-hidden="true" tabindex="-1"></a><span class="co">### Holt Winters Exponential Smoothing method </span></span>
+<span id="cb78-2"><a href="#cb78-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb78-3"><a href="#cb78-3" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> statsmodels.tsa.holtwinters <span class="im">import</span> ExponentialSmoothing</span>
+<span id="cb78-4"><a href="#cb78-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb78-5"><a href="#cb78-5" aria-hidden="true" tabindex="-1"></a>holt_model <span class="op">=</span> ExponentialSmoothing(train_data[<span class="st">&#39;diff&#39;</span>], seasonal_periods<span class="op">=</span><span class="dv">7</span>, trend<span class="op">=</span><span class="va">None</span>, seasonal<span class="op">=</span><span class="st">&#39;add&#39;</span>)</span>
+<span id="cb78-6"><a href="#cb78-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb78-7"><a href="#cb78-7" aria-hidden="true" tabindex="-1"></a>holt_model_results <span class="op">=</span> holt_model.fit()</span>
+<span id="cb78-8"><a href="#cb78-8" aria-hidden="true" tabindex="-1"></a><span class="bu">len</span>(test_data[<span class="st">&#39;diff&#39;</span>])</span>
+<span id="cb78-9"><a href="#cb78-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb78-10"><a href="#cb78-10" aria-hidden="true" tabindex="-1"></a>Prediction6 <span class="op">=</span> holt_model_results.predict(start_index, end_index)</span>
+<span id="cb78-11"><a href="#cb78-11" aria-hidden="true" tabindex="-1"></a>Prediction6.index <span class="op">=</span> data1.index[start_index:end_index<span class="op">+</span><span class="dv">1</span>]</span>
+<span id="cb78-12"><a href="#cb78-12" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(Prediction6)</span>
+<span id="cb78-13"><a href="#cb78-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb78-14"><a href="#cb78-14" aria-hidden="true" tabindex="-1"></a>actual_vs_pred <span class="op">=</span> pd.concat([test_data[<span class="st">&#39;diff&#39;</span>], Prediction6], axis<span class="op">=</span><span class="dv">1</span>)</span>
+<span id="cb78-15"><a href="#cb78-15" aria-hidden="true" tabindex="-1"></a>actual_vs_pred.plot(figsize <span class="op">=</span> (<span class="dv">40</span>,<span class="dv">15</span>))</span>
+<span id="cb78-16"><a href="#cb78-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb78-17"><a href="#cb78-17" aria-hidden="true" tabindex="-1"></a>rmse6 <span class="op">=</span> math.sqrt(mean_squared_error(test_data[<span class="st">&#39;diff&#39;</span>], Prediction6))</span>
+<span id="cb78-18"><a href="#cb78-18" aria-hidden="true" tabindex="-1"></a>rmse6</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Date
+2015-10-25   -56.233802
+2015-10-26    -4.889275
+2015-10-27   -15.505980
+2015-10-28    16.261224
+2015-10-29   -10.225865
+                ...    
+2016-07-27    16.261224
+2016-07-28   -10.225865
+2016-07-29    33.050412
+2016-07-30    48.102414
+2016-07-31   -56.233802
+Length: 281, dtype: float64
+</code></pre>
+</div>
+<div class="output stream stderr">
+<pre><code>/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g. forecasting.
+  self._init_dates(dates, freq)
+/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/statsmodels/tsa/base/tsa_model.py:836: ValueWarning: No supported index is available. Prediction results will be given with an integer index beginning at `start`.
+  return get_prediction_index(
+/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/statsmodels/tsa/base/tsa_model.py:836: FutureWarning: No supported index is available. In the next version, calling this method in a model without a supported index will result in an exception.
+  return get_prediction_index(
+</code></pre>
+</div>
+<div class="output execute_result" data-execution_count="59">
+<pre><code>67.303924375258</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_8ad573ae909d49debc4633633efdc651/df8b500a86a53962f39269b9032924f26bf66551.png" /></p>
+</div>
+</div>
+<section
+id="by-comparing-rmse-we-can-say-that-holt-winters-is-our-best-model-so-far-with-rmse-as-67"
+class="cell markdown">
+<h3>By comparing RMSE we can say that Holt Winters is our best model so
+far with RMSE as 67.</h3>
+</section>
+<section
+id="lets-consider-approach-2-implementing-robust-model-like-xgboosting-on-the-un-differenced-data"
+class="cell markdown">
+<h3>Let's consider approach 2: Implementing robust model like XGBoosting
+on the un differenced data</h3>
+</section>
+<div class="cell code" data-execution_count="60">
+<div class="sourceCode" id="cb82"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb82-1"><a href="#cb82-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> xgboost <span class="im">as</span> xgb</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="61">
+<div class="sourceCode" id="cb83"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb83-1"><a href="#cb83-1" aria-hidden="true" tabindex="-1"></a>data.head()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="61">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Sales</th>
+      <th>Stock</th>
+      <th>Price</th>
+      <th>Day</th>
+      <th>Month</th>
+      <th>Year</th>
+      <th>Revenue</th>
+      <th>Sales_Shift</th>
+      <th>diff</th>
+    </tr>
+    <tr>
+      <th>Date</th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>2014-01-01</th>
+      <td>0</td>
+      <td>4972</td>
+      <td>1.29</td>
+      <td>1</td>
+      <td>1</td>
+      <td>2014</td>
+      <td>0.00</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>2014-01-02</th>
+      <td>70</td>
+      <td>4902</td>
+      <td>1.29</td>
+      <td>2</td>
+      <td>1</td>
+      <td>2014</td>
+      <td>90.30</td>
+      <td>0.0</td>
+      <td>70.0</td>
+    </tr>
+    <tr>
+      <th>2014-01-03</th>
+      <td>59</td>
+      <td>4843</td>
+      <td>1.29</td>
+      <td>3</td>
+      <td>1</td>
+      <td>2014</td>
+      <td>76.11</td>
+      <td>70.0</td>
+      <td>-11.0</td>
+    </tr>
+    <tr>
+      <th>2014-01-04</th>
+      <td>93</td>
+      <td>4750</td>
+      <td>1.29</td>
+      <td>4</td>
+      <td>1</td>
+      <td>2014</td>
+      <td>119.97</td>
+      <td>59.0</td>
+      <td>34.0</td>
+    </tr>
+    <tr>
+      <th>2014-01-05</th>
+      <td>96</td>
+      <td>4654</td>
+      <td>1.29</td>
+      <td>5</td>
+      <td>1</td>
+      <td>2014</td>
+      <td>123.84</td>
+      <td>93.0</td>
+      <td>3.0</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="cell code" data-execution_count="62">
+<div class="sourceCode" id="cb84"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb84-1"><a href="#cb84-1" aria-hidden="true" tabindex="-1"></a><span class="co">#split the data into train and test data</span></span>
+<span id="cb84-2"><a href="#cb84-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb84-3"><a href="#cb84-3" aria-hidden="true" tabindex="-1"></a>size <span class="op">=</span> <span class="bu">int</span>(<span class="bu">len</span>(data)<span class="op">*</span><span class="fl">0.7</span>)</span>
+<span id="cb84-4"><a href="#cb84-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb84-5"><a href="#cb84-5" aria-hidden="true" tabindex="-1"></a>train_data <span class="op">=</span> data[:size]</span>
+<span id="cb84-6"><a href="#cb84-6" aria-hidden="true" tabindex="-1"></a>test_data <span class="op">=</span> data[size:]</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="63">
+<div class="sourceCode" id="cb85"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb85-1"><a href="#cb85-1" aria-hidden="true" tabindex="-1"></a>train_data.tail()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="63">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Sales</th>
+      <th>Stock</th>
+      <th>Price</th>
+      <th>Day</th>
+      <th>Month</th>
+      <th>Year</th>
+      <th>Revenue</th>
+      <th>Sales_Shift</th>
+      <th>diff</th>
+    </tr>
+    <tr>
+      <th>Date</th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>2015-10-19</th>
+      <td>120</td>
+      <td>1291</td>
+      <td>1.48</td>
+      <td>19</td>
+      <td>10</td>
+      <td>2015</td>
+      <td>177.60</td>
+      <td>174.0</td>
+      <td>-54.0</td>
+    </tr>
+    <tr>
+      <th>2015-10-20</th>
+      <td>93</td>
+      <td>1198</td>
+      <td>1.78</td>
+      <td>20</td>
+      <td>10</td>
+      <td>2015</td>
+      <td>165.54</td>
+      <td>120.0</td>
+      <td>-27.0</td>
+    </tr>
+    <tr>
+      <th>2015-10-21</th>
+      <td>100</td>
+      <td>1096</td>
+      <td>1.78</td>
+      <td>21</td>
+      <td>10</td>
+      <td>2015</td>
+      <td>178.00</td>
+      <td>93.0</td>
+      <td>7.0</td>
+    </tr>
+    <tr>
+      <th>2015-10-22</th>
+      <td>137</td>
+      <td>1055</td>
+      <td>1.27</td>
+      <td>22</td>
+      <td>10</td>
+      <td>2015</td>
+      <td>173.99</td>
+      <td>100.0</td>
+      <td>37.0</td>
+    </tr>
+    <tr>
+      <th>2015-10-23</th>
+      <td>241</td>
+      <td>1006</td>
+      <td>1.27</td>
+      <td>23</td>
+      <td>10</td>
+      <td>2015</td>
+      <td>306.07</td>
+      <td>137.0</td>
+      <td>104.0</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="cell code" data-execution_count="64">
+<div class="sourceCode" id="cb86"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb86-1"><a href="#cb86-1" aria-hidden="true" tabindex="-1"></a>test_data.head()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="64">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Sales</th>
+      <th>Stock</th>
+      <th>Price</th>
+      <th>Day</th>
+      <th>Month</th>
+      <th>Year</th>
+      <th>Revenue</th>
+      <th>Sales_Shift</th>
+      <th>diff</th>
+    </tr>
+    <tr>
+      <th>Date</th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>2015-10-24</th>
+      <td>113</td>
+      <td>893</td>
+      <td>1.27</td>
+      <td>24</td>
+      <td>10</td>
+      <td>2015</td>
+      <td>143.51</td>
+      <td>241.0</td>
+      <td>-128.0</td>
+    </tr>
+    <tr>
+      <th>2015-10-25</th>
+      <td>257</td>
+      <td>636</td>
+      <td>1.28</td>
+      <td>25</td>
+      <td>10</td>
+      <td>2015</td>
+      <td>328.96</td>
+      <td>113.0</td>
+      <td>144.0</td>
+    </tr>
+    <tr>
+      <th>2015-10-26</th>
+      <td>166</td>
+      <td>474</td>
+      <td>1.28</td>
+      <td>26</td>
+      <td>10</td>
+      <td>2015</td>
+      <td>212.48</td>
+      <td>257.0</td>
+      <td>-91.0</td>
+    </tr>
+    <tr>
+      <th>2015-10-27</th>
+      <td>162</td>
+      <td>312</td>
+      <td>1.28</td>
+      <td>27</td>
+      <td>10</td>
+      <td>2015</td>
+      <td>207.36</td>
+      <td>166.0</td>
+      <td>-4.0</td>
+    </tr>
+    <tr>
+      <th>2015-10-28</th>
+      <td>247</td>
+      <td>1121</td>
+      <td>1.28</td>
+      <td>28</td>
+      <td>10</td>
+      <td>2015</td>
+      <td>316.16</td>
+      <td>162.0</td>
+      <td>85.0</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="cell code" data-execution_count="65">
+<div class="sourceCode" id="cb87"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb87-1"><a href="#cb87-1" aria-hidden="true" tabindex="-1"></a><span class="co">#split the data into x train, y train and x test, y test</span></span>
+<span id="cb87-2"><a href="#cb87-2" aria-hidden="true" tabindex="-1"></a><span class="co">#for boosting we need to split the independent and dependent variables</span></span>
+<span id="cb87-3"><a href="#cb87-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb87-4"><a href="#cb87-4" aria-hidden="true" tabindex="-1"></a>x_train <span class="op">=</span> train_data[[<span class="st">&#39;Stock&#39;</span>, <span class="st">&#39;Price&#39;</span>, <span class="st">&#39;Day&#39;</span>, <span class="st">&#39;Month&#39;</span>, <span class="st">&#39;Year&#39;</span>, <span class="st">&#39;Revenue&#39;</span>]]</span>
+<span id="cb87-5"><a href="#cb87-5" aria-hidden="true" tabindex="-1"></a>y_train <span class="op">=</span> train_data[<span class="st">&#39;Sales&#39;</span>]</span>
+<span id="cb87-6"><a href="#cb87-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb87-7"><a href="#cb87-7" aria-hidden="true" tabindex="-1"></a>x_test <span class="op">=</span> test_data[[<span class="st">&#39;Stock&#39;</span>, <span class="st">&#39;Price&#39;</span>, <span class="st">&#39;Day&#39;</span>, <span class="st">&#39;Month&#39;</span>, <span class="st">&#39;Year&#39;</span>, <span class="st">&#39;Revenue&#39;</span>]]</span>
+<span id="cb87-8"><a href="#cb87-8" aria-hidden="true" tabindex="-1"></a>y_test <span class="op">=</span> test_data[<span class="st">&#39;Sales&#39;</span>]</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="66">
+<div class="sourceCode" id="cb88"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb88-1"><a href="#cb88-1" aria-hidden="true" tabindex="-1"></a>xgb_model <span class="op">=</span> xgb.XGBRegressor(n_estimators <span class="op">=</span> <span class="dv">100</span>, </span>
+<span id="cb88-2"><a href="#cb88-2" aria-hidden="true" tabindex="-1"></a>                             early_stopping_rounds <span class="op">=</span> <span class="dv">50</span>)</span>
+<span id="cb88-3"><a href="#cb88-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb88-4"><a href="#cb88-4" aria-hidden="true" tabindex="-1"></a>xgb_model_results <span class="op">=</span> xgb_model.fit(x_train, </span>
+<span id="cb88-5"><a href="#cb88-5" aria-hidden="true" tabindex="-1"></a>                                  y_train, </span>
+<span id="cb88-6"><a href="#cb88-6" aria-hidden="true" tabindex="-1"></a>                                  eval_set <span class="op">=</span> [(x_test, y_test)], verbose <span class="op">=</span> <span class="dv">25</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>[0]	validation_0-rmse:122.71801
+[25]	validation_0-rmse:17.60390
+[50]	validation_0-rmse:17.36917
+[75]	validation_0-rmse:17.38624
+[99]	validation_0-rmse:17.38271
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="67">
+<div class="sourceCode" id="cb90"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb90-1"><a href="#cb90-1" aria-hidden="true" tabindex="-1"></a><span class="co">#Feature importance (understanding top features which influenced target variable)</span></span>
+<span id="cb90-2"><a href="#cb90-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb90-3"><a href="#cb90-3" aria-hidden="true" tabindex="-1"></a>feature_imp <span class="op">=</span> pd.DataFrame(data<span class="op">=</span>xgb_model_results.feature_importances_, </span>
+<span id="cb90-4"><a href="#cb90-4" aria-hidden="true" tabindex="-1"></a>                           index<span class="op">=</span>xgb_model_results.feature_names_in_,</span>
+<span id="cb90-5"><a href="#cb90-5" aria-hidden="true" tabindex="-1"></a>                          columns <span class="op">=</span> [<span class="st">&#39;importance_score&#39;</span>])</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="68">
+<div class="sourceCode" id="cb91"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb91-1"><a href="#cb91-1" aria-hidden="true" tabindex="-1"></a>feature_imp.sort_values(by <span class="op">=</span> <span class="st">&#39;importance_score&#39;</span>, ascending<span class="op">=</span><span class="va">False</span>)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="68">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>importance_score</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>Revenue</th>
+      <td>0.895342</td>
+    </tr>
+    <tr>
+      <th>Price</th>
+      <td>0.088823</td>
+    </tr>
+    <tr>
+      <th>Year</th>
+      <td>0.014254</td>
+    </tr>
+    <tr>
+      <th>Stock</th>
+      <td>0.000643</td>
+    </tr>
+    <tr>
+      <th>Month</th>
+      <td>0.000556</td>
+    </tr>
+    <tr>
+      <th>Day</th>
+      <td>0.000381</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="cell markdown">
+<p>From the above table we understand that Revenue had a huge impact on
+target variable</p>
+</div>
+<div class="cell code" data-execution_count="70">
+<div class="sourceCode" id="cb92"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb92-1"><a href="#cb92-1" aria-hidden="true" tabindex="-1"></a><span class="co">#Since Boosting has given us good RMSE as low 17 from Holt Winters model had rmse of 67. </span></span>
+<span id="cb92-2"><a href="#cb92-2" aria-hidden="true" tabindex="-1"></a><span class="co">#we shall use boosting model for our predictions</span></span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="71">
+<div class="sourceCode" id="cb93"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb93-1"><a href="#cb93-1" aria-hidden="true" tabindex="-1"></a><span class="co">#Predicting on test data</span></span>
+<span id="cb93-2"><a href="#cb93-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb93-3"><a href="#cb93-3" aria-hidden="true" tabindex="-1"></a>Prediction7 <span class="op">=</span> xgb_model_results.predict(x_test)</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="72">
+<div class="sourceCode" id="cb94"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb94-1"><a href="#cb94-1" aria-hidden="true" tabindex="-1"></a>rmse7 <span class="op">=</span> math.sqrt(mean_squared_error(y_test, Prediction7))</span>
+<span id="cb94-2"><a href="#cb94-2" aria-hidden="true" tabindex="-1"></a>rmse7</span></code></pre></div>
+<div class="output execute_result" data-execution_count="72">
+<pre><code>17.369167367641094</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="73">
+<div class="sourceCode" id="cb96"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb96-1"><a href="#cb96-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(Prediction7)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>[ 1.10131760e+02  2.45653046e+02  1.69538513e+02  1.63427444e+02
+  2.33955780e+02  7.55591660e+01  1.39304794e+02  1.80791168e+02
+  2.17860779e+02  2.53740570e+02  5.78047180e+01  9.55067062e+01
+  6.47112274e+01  7.24873123e+01  2.45748276e+02  1.67601776e+02
+  1.19772881e+02  7.14874268e+01  1.16348709e+02  1.07893082e+02
+  1.16197731e+02  1.67660370e+02  1.39938217e+02  1.17116402e+02
+  1.11915146e+02  1.19976402e+02  8.63296585e+01  1.78642441e+02
+  1.69326843e+02  1.17530472e+02  8.64086304e+01  1.60198227e+02
+  1.27585640e+02  8.16242447e+01  9.56580162e-01  1.13093615e+01
+  1.02485352e+01  2.03658657e+01  3.39324493e+01  3.42972107e+01
+  3.49377213e+01  1.14877266e+02  1.30922821e+02  8.31108246e+01
+  8.65559082e+01  8.51835327e+01  8.33934631e+01  6.96308365e+01
+  3.87855492e+01  1.67052490e+02  1.28888977e+02  7.04219437e+01
+  1.76322083e+02  1.64141312e+02  1.42008194e+02  1.98245590e+02
+  3.05680939e+02  3.32346649e+02  2.38253448e+02  3.72247955e+02
+  3.90589508e+02  1.64087906e+02 -1.70183256e-02  2.20616440e+02
+  1.07106979e+02  1.03370979e+02  8.83992672e+00 -1.04115292e-01
+ -2.15929359e-01 -1.56968489e-01  2.85787630e+00  2.21788928e-01
+  1.61495715e-01  3.08141208e+00  3.08141208e+00  9.97574702e-02
+  2.14683175e+00  6.81985915e-01  2.70090580e+00 -2.43636876e-01
+  1.09782394e+02  1.67238098e+02  1.16206062e+02  6.40840683e+01
+  2.21165504e+01  2.23298490e-01  8.34144413e-01 -1.47957310e-01
+  8.25399697e-01  6.13349342e+01  1.05024597e+02  3.06767853e+02
+  1.98461029e+02  2.15462219e+02  1.13953247e+02  1.31739304e+02
+  1.52633301e+02  1.61525986e+02  2.47828049e+02  1.77524811e+02
+  1.23979012e+02  1.67019211e+02  2.44031036e+02  1.14226051e+02
+  8.29904327e+01  1.13272575e+02  8.67551422e+01  8.37904282e+01
+  1.32814102e+02  1.60403595e+02  1.17561958e+02  1.16333229e+02
+  1.83643509e+02  1.18812416e+02  2.93457756e+01  6.17572632e+01
+  7.48950272e+01  4.44929276e+01  4.05867119e+01  8.69568634e+01
+  7.42767868e+01  6.58891373e+01  6.54361954e+01  4.21164207e+01
+  5.41135597e+01  1.14291069e+02  2.48813889e+02  2.04682724e+02
+  8.86735840e+01  7.09031067e+01  1.27412437e+02  7.27169647e+01
+  6.71613235e+01  8.24812164e+01  8.45765533e+01  1.00365181e+02
+  4.81926384e+01  3.48782616e+01  6.13216362e+01  6.15098686e+01
+  7.88608246e+01  6.54508438e+01  2.96868649e+01  6.52954102e+01
+  1.55776871e+02  8.63965225e+01  7.15248718e+01  1.50830994e+02
+  1.54671112e+02  8.13137131e+01  7.33866653e+01  1.00695213e+02
+  7.32405777e+01  1.00087845e+02  1.11141907e+02  5.36481781e+01
+  2.06965141e+01  3.04567947e+01  5.82404251e+01  3.95751266e+01
+  7.07155533e+01  8.13461075e+01  4.02788391e+01  9.62828064e+01
+  8.41567078e+01  1.13243904e+02  1.21087280e+02  1.22656769e+02
+  2.29673126e+02  1.22378815e+02  1.28997040e+02  5.64416008e+01
+  1.28999390e+02  1.12676697e+02  1.22789452e+02  2.08593246e+02
+  1.27567734e+02  8.49435272e+01  1.31091629e+02  1.67802689e+02
+  2.46885147e+02  2.47874008e+02  2.03743622e+02  1.35618561e+02
+  8.62620621e+01  8.85696945e+01  1.25752754e+02  1.20632591e+02
+  1.25172737e+02  2.28951813e+02  1.24173813e+02 -2.47816682e-01
+  1.29081390e+02  2.05113037e+02  1.79145844e+02  1.99842331e+02
+  3.39757111e+02  1.68222916e+02  1.67630585e+02  1.71423889e+02
+  3.30186981e+02  1.49644821e+02  1.30659225e+02  1.15660846e+00
+  1.84872188e-03  1.40551895e-01 -8.08715522e-02  1.25315521e+02
+  8.63612061e+01  1.26782433e+02  2.12132004e+02  1.20156349e+02
+  8.32354050e+01  5.84087677e+01  9.87172775e+01  1.48605438e+02
+  2.28904587e+02  2.28904587e+02  2.09102509e+02  1.24304184e+02
+  1.28486588e+02  3.01553711e+02  2.29072830e+02  1.43412186e+02
+  3.01465851e+02  3.01465851e+02  1.30790924e+02  1.27170486e+02
+  2.29276169e+02  2.08779388e+02  2.48336960e+02  4.04755646e+02
+  3.13626617e+02  2.46241745e+02  2.40793518e+02  3.31417999e+02
+  2.46409424e+02  2.44821014e+02  4.03681549e+02  3.31272247e+02
+  1.17506607e+02  3.02100716e+01  3.46529083e+01  4.05835075e+01
+  8.51898651e+01  1.25293510e+02  1.25535301e+02  1.27799629e+02
+  7.49780273e+01  1.29515274e+02  1.29326599e+02  2.28678253e+02
+  3.01596436e+02  2.04893616e+02  1.23771828e+02  2.04528580e+02
+  2.04021210e+02  1.46106705e+02  2.91842556e+01  8.95416489e+01
+  7.42904816e+01  1.23517998e+02  1.62711777e+02  2.67072998e+02
+  1.50576492e+02  1.65529434e+02  2.66833344e+02  1.79033081e+02
+  1.63054901e+02  1.62488480e+02  2.49461548e+02  7.99511948e+01
+  8.34938889e+01  1.22958084e+02  1.24066177e+02  8.13211441e+01
+  8.58130188e+01  8.68402939e+01  9.94737244e+01  1.26418915e+02
+  2.28901520e+02  1.49729462e+02]
+</code></pre>
+</div>
+</div>
+<section
+id="xgboosting-gave-rmse-as-1736-without-having-to-difference-the-data-hence-this-model-is-robust-and-proved-to-be-the-best"
+class="cell markdown">
+<h3>XGBoosting gave rmse as 17.36 without having to difference the data.
+Hence this model is robust and proved to be the best.</h3>
+</section>
+</body>
+</html>

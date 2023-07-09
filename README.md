@@ -1,2 +1,2 @@
-# Portfolio_DataAnalytics
- Showcase my data analytics skills
+# DataAnalysisPortfolio
+ ShowCase my data analytics skills

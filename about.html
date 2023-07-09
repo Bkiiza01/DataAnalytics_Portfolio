@@ -1,0 +1,168 @@
+<!DOCTYPE HTML>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>About Me</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<a href="index.html" class="logo">Portfolio</a>
+					</header>
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul class="links">
+							<li><a href="index.html">HOME</a></li>
+							<li class="active"><a href="about.html">ABOUT ME</a></li>
+							<li><a href="elements.html">PROJECTs</a></li>
+						</ul>
+						<ul class="icons">
+							<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+							<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+							<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+							<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Post -->
+							<section class="post">
+								<header class="major">
+									<span class="date">June 11, 2023</span>
+									
+									<p>Welcome to my portfolio! I am Brian Kiiza, a dedicated and experienced data analyst. Here is<br />
+									a glimpse into my professional background, education, skills, and certifications.</p>
+									
+								</header>
+								<div class="image main"><img src="images/about.png" alt="" /></div>
+								<h3>Professional Background:</h3>
+								<p> With several years of experience as a data analyst, I have honed my skills in statistical
+									analysis, business intelligence, and advanced data analysis techniques. I have worked on a
+									wide range of projects, collaborating cross-functionally to optimize code, improve data
+									processing efficiency, and deliver valuable insights to decision-makers.
+								</p>
+								<h3>Education:</h3>
+								<p>I hold a Bachelor of Arts (B.A.) degree in Economics & Statistics from the prestigious
+									University of British Columbia (UBC). My academic background has equipped me with a 
+									strong foundation in quantitative analysis, data modeling, and research methodologies.
+								</p>
+								<h3>Skills:</h3>
+								<p><b> • Data Analysis:</b> Proficient in statistical methods, machine learning algorithms, and data mining techniques, I have a deep understanding of analyzing complex datasets to extract meaningful insights.<br />
+									<b>• Tools and Technologies:</b> I am experienced in working with R program, STATA, SPSS, SAS, Qualtrics, Java, Python, Power BI, Excel, and Tableau. Additionally, I am familiar with Microsoft Azure, AWS, and SQL BigQuery.<br />
+									<b> • Data Management:</b> I have expertise in data mining, data pipeline, data warehousing, and database management, ensuring reliable and high-quality data for analysis.<br />
+									<b> • Communication:</b> I possess excellent written and oral communication skills, allowing me to effectively present complex data in clear and concise reports for diverse stakeholders. 
+								</p>
+								<h3> Certifications:</h3>
+								<p> I have continuously pursued professional development and have acquired certifications to strengthen my skills and knowledge in the field of data analytics. Some of my certifications include:<br />
+									<b>• Data Science Course @Careernow.us:</b> 
+									I am currently enrolled and actively taking the data science course at Careernow.us, I am excited to enhance my analytical skills and expand my knowledge in this field. This comprehensive program equips me with essential tools and techniques to excel in data science. With a focus on data analysis, machine learning, and data visualization, this course is helping me break into the data science profession and thrive in this rapidly growing and competitive field.<br />
+									<b>• KPMG Virtual Internship:</b> Completed a practical virtual internship that provided hands-on experience in data quality assessment, data insights, and data presentation.<br />
+									<b>• <a href="https://coursera.org/share/233e256e8285d038b054f6d2ceec409d">  Exploring Stock Prices with Spark SQL:</a></b> Completed a project-based certification course focusing on distributed programming with Spark and deriving insights from stock price datasets using Apache Spark SQL and DataFrame API.<br />
+									<b>• <a href="https://www.coursera.org/account/accomplishments/certificate/3FXQ67QCP9G2">   Google Business Intelligence Professional Certificate:</a></b> Earned a certificate demonstrating proficiency in Google's suite of BI tools, including data analysis, visualization, and reporting using Google Data Studio and Analytics. <br />
+									<b>• <a href="https://www.coursera.org/account/accomplishments/certificate/NVJHFXCY95BG">   Microsoft Azure SQL:</a></b> I successfully completed the Microsoft Azure SQL course on Coursera, acquiring in-depth knowledge and practical skills in utilizing Azure SQL for efficient data management and analysis. This accomplishment has enhanced my expertise in cloud-based data solutions, equipping me with the necessary skills to effectively leverage Microsoft Azure SQL in data analytics projects.
+								</p>
+
+								<p>I am dedicated to staying up-to-date with the latest industry trends and emerging technologies in data analytics, ensuring that I provide cutting-edge solutions to my clients.</p>
+								<p>Thank you for visiting my portfolio and taking the time to learn more about my background, skills, and certifications. If you have any further questions or would like to discuss potential collaborations, please don't hesitate to contact me.</p>
+
+							</section>
+
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<section>
+							<form onsubmit="sendEmail(event)">
+								<div class="fields">
+									<div class="field">
+										<label for="name">Name</label>
+										<input type="text" name="name" id="name" />
+									</div>
+									<div class="field">
+										<label for="email">Email</label>
+										<input type="text" name="email" id="email" />
+									</div>
+									<div class="field">
+										<label for="message">Message</label>
+										<textarea name="message" id="message" rows="3"></textarea>
+									</div>
+								</div>
+								<ul class="actions">
+									<li><input type="submit" value="Send Message" /></li>
+								</ul>
+							</form>
+							<p id="confirmation-message"></p>
+						</section>
+						
+						<script>
+							function sendEmail(event) {
+								event.preventDefault();
+								const message = document.getElementById("message").value;
+								const mailtoLink = "mailto:bkiiza92@gmail.com?body=" + encodeURIComponent(message);
+								window.location.href = mailtoLink;
+								document.getElementById("confirmation-message").textContent = "Email sent.";
+								document.getElementById("name").value = "";
+								document.getElementById("email").value = "";
+								document.getElementById("message").value = "";
+							}
+						</script>
+
+						<section class="split contact">
+							<section class="alt">
+								<h3>Address</h3>
+								<p>126 Branstone Road <br />
+								York, ON M6E4E5 </p>
+							</section>
+							<section>
+								<h3>Phone</h3>
+								<p><a href="#">(416) 871-4036</a></p>
+							</section>
+							<section>
+								<h3>Email</h3>
+								<p><a href="#">bkiiza92@gmail.com</a></p>
+							</section>
+							<section>
+								<h3>Social</h3>
+								<ul class="icons alt">
+									<li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
+									<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
+									<li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
+									<li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+								</ul>
+							</section>
+						</section>
+					</footer>
+
+				<!-- Copyright -->
+					<div id="copyright">
+						<ul><li>&copy; Brian Kiiza 2023</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
